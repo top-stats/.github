@@ -1,47 +1,81 @@
-<h1 align="center">Top<span>stats</span></h1>
+<h1 align="center">TopStats</h1>
 
 <p align="center">
-  <b>Analytics for Discord bots.</b><br>
-  Historical stats, growth tracking, and an API for every bot on the list.
+  <b>Product analytics for backends, bots, and game servers.</b><br>
+  Send events over HTTP, OpenTelemetry, or an SDK — get funnels, retention,
+  live dashboards, and behavioral alerts.
 </p>
 
 <p align="center">
   <a href="https://topstats.gg">Website</a> &nbsp;·&nbsp;
   <a href="https://docs.topstats.gg">Docs</a> &nbsp;·&nbsp;
-  <a href="https://docs.topstats.gg/api">API Reference</a> &nbsp;·&nbsp;
-  <a href="https://topstats.gg/discord">Discord</a>
+  <a href="https://bots.topstats.gg">Bot analytics</a> &nbsp;·&nbsp;
+  <a href="https://discord.gg/jjEauJXuZc">Discord</a>
 </p>
 
 ---
 
-## What we do
+## What we build
 
-[topstats.gg](https://topstats.gg) tracks Discord bots over time and turns raw
-counts into something you can actually read — server growth, vote history,
-ranking movement, and the trend lines behind them.
+[**topstats.gg**](https://topstats.gg) — schema-agnostic event analytics built
+for server-side data. No fixed schema to design up front: send whatever
+properties you have and query them later.
 
-- **Historical data** — not just today's number, but where it came from.
-- **Comparisons** — put bots side by side.
-- **Public API** — pull the same data we render, into your own tooling.
+- **Live dashboards** — widgets update in near real time as events land.
+- **Funnels, retention, and segments** — behavioral analysis over your own events.
+- **Actors** — attribute events to a player, user, or server.
+- **Alerts and digests** — get told when a metric moves, on a schedule or on a threshold.
+- **Sharing and embedding** — public dashboards and embeddable widgets.
+- **Flat, volume-based pricing** — free plan included, no card required.
+
+[**bots.topstats.gg**](https://bots.topstats.gg) — historical growth, vote
+trends, and rankings for tens of thousands of Discord bots listed on top.gg.
+Independent, not affiliated with top.gg.
+
+## Sending events
+
+One endpoint, no SDK required:
+
+```bash
+curl -X POST https://topstats.gg/v1/events \
+  -H "Authorization: Bearer $TOPSTATS_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"name":"player_join","properties":{"map":"dust2"},"_actor":"user_123"}'
+```
+
+Already running OpenTelemetry? Point any OTLP SDK or Collector straight at us.
+Full details in the [docs](https://docs.topstats.gg).
 
 ## SDKs
 
-Official client libraries for the Topstats API. All **coming soon** — repos will
-land under this org as they ship.
+Every SDK sends the same payload as the HTTP API above. Repos land under this
+org as they ship.
 
-| Language | Package | Status |
+**Available today** — Node.js · JavaScript · TypeScript · raw HTTP / OTLP
+
+**Soon™**
+
+| | | |
 | --- | --- | --- |
-| JavaScript / TypeScript | `topstats.js` | 🚧 Soon™ |
-| Python | `topstats.py` | 🚧 Soon™ |
-| Go | `topstats.go` | 🚧 Soon™ |
-| Rust | `topstats.rs` | 🚧 Soon™ |
+| Python | Go | Rust |
+| C# | Java | Kotlin |
+| Ruby | PHP | Elixir |
+| Swift | Unity | Unreal |
+| Godot | | |
 
-Want one in a language not listed? Open a discussion or ping us on
-[Discord](https://topstats.gg/discord).
+**Game-server plugins — Soon™**
 
-## Links
+| Platform | Target |
+| --- | --- |
+| Minecraft | Spigot / Paper |
+| Rust | Oxide / Carbon |
+| FiveM | GTA RP resource |
+| Garry's Mod | GLua addon |
+| ARK / Unturned | Survival mod |
 
-- 🌐 **Website** — <https://topstats.gg>
-- 📚 **Documentation** — <https://docs.topstats.gg>
-- 🔌 **API** — <https://docs.topstats.gg/api>
-- 💬 **Discord** — <https://topstats.gg/discord>
+Want one that isn't listed? Tell us in [Discord](https://discord.gg/jjEauJXuZc).
+
+## Contact
+
+- 💬 [Discord](https://discord.gg/jjEauJXuZc)
+- 📧 support@topstats.gg
