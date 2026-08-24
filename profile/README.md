@@ -59,16 +59,16 @@ org as they ship.
 | Python | from the repo (PyPI soon) | [analytics-python-sdk](https://github.com/top-stats/analytics-python-sdk) |
 | Go | `go get github.com/top-stats/analytics-go-sdk` | [analytics-go-sdk](https://github.com/top-stats/analytics-go-sdk) |
 | PHP | from the repo (Packagist soon) | [analytics-php-sdk](https://github.com/top-stats/analytics-php-sdk) |
+| Rust | from the repo (crates.io soon) | [analytics-rust-sdk](https://github.com/top-stats/analytics-rust-sdk) |
 | raw HTTP / OTLP | no install — see the [docs](https://docs.topstats.gg) | — |
 
 **Soon™**
 
 | | | |
 | --- | --- | --- |
-| Rust | C# | Java |
-| Kotlin | Ruby | Elixir |
-| Swift | Unity | Unreal |
-| Godot | | |
+| C# | Java | Kotlin |
+| Ruby | Elixir | Swift |
+| Unity | Unreal | Godot |
 
 **Game-server plugins — Soon™**
 
