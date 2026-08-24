@@ -61,15 +61,16 @@ org as they ship.
 | PHP | from the repo (Packagist soon) | [analytics-php-sdk](https://github.com/top-stats/analytics-php-sdk) |
 | Rust | from the repo (crates.io soon) | [analytics-rust-sdk](https://github.com/top-stats/analytics-rust-sdk) |
 | C# / .NET | from the repo (NuGet soon) | [analytics-csharp-sdk](https://github.com/top-stats/analytics-csharp-sdk) |
+| Java | from the repo (Maven Central soon) | [analytics-java-sdk](https://github.com/top-stats/analytics-java-sdk) |
 | raw HTTP / OTLP | no install — see the [docs](https://docs.topstats.gg) | — |
 
 **Soon™**
 
 | | | |
 | --- | --- | --- |
-| Java | Kotlin | Ruby |
-| Elixir | Swift | Unity |
-| Unreal | Godot | |
+| Kotlin | Ruby | Elixir |
+| Swift | Unity | Unreal |
+| Godot | | |
 
 **Game-server plugins — Soon™**
 
