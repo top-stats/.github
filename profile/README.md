@@ -65,14 +65,14 @@ org as they ship.
 | Kotlin | from the repo (Maven Central soon) | [analytics-kotlin-sdk](https://github.com/top-stats/analytics-kotlin-sdk) |
 | Ruby | from the repo (RubyGems soon) | [analytics-ruby-sdk](https://github.com/top-stats/analytics-ruby-sdk) |
 | Elixir | from the repo (Hex soon) | [analytics-elixir-sdk](https://github.com/top-stats/analytics-elixir-sdk) |
+| Swift | Swift Package Manager via the repo URL | [analytics-swift-sdk](https://github.com/top-stats/analytics-swift-sdk) |
 | raw HTTP / OTLP | no install — see the [docs](https://docs.topstats.gg) | — |
 
 **Soon™**
 
 | | | |
 | --- | --- | --- |
-| Swift | Unity | Unreal |
-| Godot | | |
+| Unity | Unreal | Godot |
 
 **Game-server plugins — Soon™**
 
