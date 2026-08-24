@@ -63,14 +63,15 @@ org as they ship.
 | C# / .NET | from the repo (NuGet soon) | [analytics-csharp-sdk](https://github.com/top-stats/analytics-csharp-sdk) |
 | Java | from the repo (Maven Central soon) | [analytics-java-sdk](https://github.com/top-stats/analytics-java-sdk) |
 | Kotlin | from the repo (Maven Central soon) | [analytics-kotlin-sdk](https://github.com/top-stats/analytics-kotlin-sdk) |
+| Ruby | from the repo (RubyGems soon) | [analytics-ruby-sdk](https://github.com/top-stats/analytics-ruby-sdk) |
 | raw HTTP / OTLP | no install — see the [docs](https://docs.topstats.gg) | — |
 
 **Soon™**
 
 | | | |
 | --- | --- | --- |
-| Ruby | Elixir | Swift |
-| Unity | Unreal | Godot |
+| Elixir | Swift | Unity |
+| Unreal | Godot | |
 
 **Game-server plugins — Soon™**
 
