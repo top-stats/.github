@@ -51,15 +51,22 @@ Full details in the [docs](https://docs.topstats.gg).
 Every SDK sends the same payload as the HTTP API above. Repos land under this
 org as they ship.
 
-**Available today** — Node.js · JavaScript · TypeScript · raw HTTP / OTLP
+**Available today**
+
+| Language | Install | Repo |
+| --- | --- | --- |
+| Node.js / JavaScript / TypeScript | `npm install @topstats/analytics` | [analytics-node-sdk](https://github.com/top-stats/analytics-node-sdk) |
+| Python | from the repo (PyPI soon) | [analytics-python-sdk](https://github.com/top-stats/analytics-python-sdk) |
+| Go | `go get github.com/top-stats/analytics-go-sdk` | [analytics-go-sdk](https://github.com/top-stats/analytics-go-sdk) |
+| PHP | from the repo (Packagist soon) | [analytics-php-sdk](https://github.com/top-stats/analytics-php-sdk) |
+| raw HTTP / OTLP | no install — see the [docs](https://docs.topstats.gg) | — |
 
 **Soon™**
 
 | | | |
 | --- | --- | --- |
-| Python | Go | Rust |
-| C# | Java | Kotlin |
-| Ruby | PHP | Elixir |
+| Rust | C# | Java |
+| Kotlin | Ruby | Elixir |
 | Swift | Unity | Unreal |
 | Godot | | |
 
