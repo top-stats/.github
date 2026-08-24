@@ -68,12 +68,6 @@ org as they ship.
 | Swift | Swift Package Manager via the repo URL | [analytics-swift-sdk](https://github.com/top-stats/analytics-swift-sdk) |
 | raw HTTP / OTLP | no install — see the [docs](https://docs.topstats.gg) | — |
 
-**Soon™**
-
-| | | |
-| --- | --- | --- |
-| Unity | Unreal | Godot |
-
 **Game-server plugins — Soon™**
 
 | Platform | Target |
