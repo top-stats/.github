@@ -68,15 +68,15 @@ org as they ship.
 | Swift | Swift Package Manager via the repo URL | [analytics-swift-sdk](https://github.com/top-stats/analytics-swift-sdk) |
 | raw HTTP / OTLP | no install — see the [docs](https://docs.topstats.gg) | — |
 
-**Game-server plugins — Soon™**
+**Game-server plugins**
 
-| Platform | Target |
-| --- | --- |
-| Minecraft | Spigot / Paper |
-| Rust | Oxide / Carbon |
-| FiveM | GTA RP resource |
-| Garry's Mod | GLua addon |
-| ARK / Unturned | Survival mod |
+| Platform | Status | Repo |
+| --- | --- | --- |
+| Minecraft (Spigot / Paper) | Available — one jar, 1.8.8 through current | [analytics-minecraft-integration](https://github.com/top-stats/analytics-minecraft-integration) |
+| Rust (Oxide / Carbon) | Soon™ | |
+| FiveM | Soon™ | |
+| Garry's Mod | Soon™ | |
+| ARK / Unturned | Soon™ | |
 
 Want one that isn't listed? Tell us in [Discord](https://discord.gg/jjEauJXuZc).
 
