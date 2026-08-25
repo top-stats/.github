@@ -77,7 +77,7 @@ org as they ship.
 | FiveM | Soon™ | |
 | Garry's Mod | Soon™ | |
 | ARK / Unturned | Soon™ | |
-| Discord bots (discord.js) | Available — automatic bot analytics plus track() | [analytics-discord-integration](https://github.com/top-stats/analytics-discord-integration) |
+| Discord bots (discord.js) | Available — `npm install @topstats/discord` | [analytics-discord-integration](https://github.com/top-stats/analytics-discord-integration) |
 
 Want one that isn't listed? Tell us in [Discord](https://discord.gg/jjEauJXuZc).
 
