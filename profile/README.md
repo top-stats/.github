@@ -66,6 +66,7 @@ org as they ship.
 | Ruby | from the repo (RubyGems soon) | [analytics-ruby-sdk](https://github.com/top-stats/analytics-ruby-sdk) |
 | Elixir | from the repo (Hex soon) | [analytics-elixir-sdk](https://github.com/top-stats/analytics-elixir-sdk) |
 | Swift | Swift Package Manager via the repo URL | [analytics-swift-sdk](https://github.com/top-stats/analytics-swift-sdk) |
+| Lua | vendored by the game integrations | [analytics-lua-sdk](https://github.com/top-stats/analytics-lua-sdk) |
 | raw HTTP / OTLP | no install — see the [docs](https://docs.topstats.gg) | — |
 
 **Game-server plugins**
@@ -74,7 +75,7 @@ org as they ship.
 | --- | --- | --- |
 | Minecraft (Spigot / Paper) | Available — one jar, 1.8.8 through current | [analytics-minecraft-integration](https://github.com/top-stats/analytics-minecraft-integration) |
 | Rust (Oxide / Carbon) | Soon™ | |
-| FiveM | Soon™ | |
+| FiveM | Available — drop-in server resource | [analytics-fivem-integration](https://github.com/top-stats/analytics-fivem-integration) |
 | Garry's Mod | Soon™ | |
 | ARK / Unturned | Soon™ | |
 | Discord bots (discord.js) | Available — `npm install @topstats/discord` | [analytics-discord-integration](https://github.com/top-stats/analytics-discord-integration) |
