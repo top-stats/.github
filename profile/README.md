@@ -74,12 +74,31 @@ org as they ship.
 | Platform | Status | Repo |
 | --- | --- | --- |
 | Minecraft (Spigot / Paper) | Available — one jar, 1.8.8 through current | [analytics-minecraft-integration](https://github.com/top-stats/analytics-minecraft-integration) |
+| Roblox | Available — Wally package / rbxm | [analytics-roblox-integration](https://github.com/top-stats/analytics-roblox-integration) |
+| Counter-Strike 2 (CounterStrikeSharp) | Available — drop-in plugin | [analytics-cs2-integration](https://github.com/top-stats/analytics-cs2-integration) |
 | Rust (Oxide / Carbon) | Available — single-file uMod plugin | [analytics-rust-integration](https://github.com/top-stats/analytics-rust-integration) |
 | FiveM / RedM | Available — drop-in server resource, one build for both | [analytics-fivem-integration](https://github.com/top-stats/analytics-fivem-integration) |
 | Garry's Mod | Available — server-side addon | [analytics-gmod-integration](https://github.com/top-stats/analytics-gmod-integration) |
 | Unturned (OpenMod) | Available — OpenMod plugin | [analytics-unturned-integration](https://github.com/top-stats/analytics-unturned-integration) |
 | ARK | Soon™ | |
 | Discord bots (discord.js) | Available — `npm install @topstats/discord` | [analytics-discord-integration](https://github.com/top-stats/analytics-discord-integration) |
+
+**Web framework middleware**
+
+One line of setup, automatic request analytics: route templates (never raw
+URLs), durations, statuses and errors.
+
+| Stack | Covers | Repo |
+| --- | --- | --- |
+| Node.js | Express, Fastify, Hono (Node / Bun / Deno / Workers), NestJS | [analytics-node-web-integration](https://github.com/top-stats/analytics-node-web-integration) |
+| Python | FastAPI, Starlette, Flask, Django, any ASGI / WSGI app | [analytics-python-web-integration](https://github.com/top-stats/analytics-python-web-integration) |
+| Go | net/http, chi, Gin, Echo, Fiber | [analytics-go-web-integration](https://github.com/top-stats/analytics-go-web-integration) |
+| PHP | Laravel, plus PSR-15 for Symfony / Slim / Mezzio | [analytics-laravel-integration](https://github.com/top-stats/analytics-laravel-integration) |
+| Ruby | Rails, Sinatra, any Rack app | [analytics-rails-integration](https://github.com/top-stats/analytics-rails-integration) |
+| Rust | tower (Axum, hyper, tonic) and Actix Web | [analytics-rust-web-integration](https://github.com/top-stats/analytics-rust-web-integration) |
+| JVM | Servlet filters (javax + jakarta), Spring Boot starter, Ktor plugin | [analytics-jvm-web-integration](https://github.com/top-stats/analytics-jvm-web-integration) |
+| .NET | ASP.NET Core | [analytics-aspnetcore-integration](https://github.com/top-stats/analytics-aspnetcore-integration) |
+| Elixir | Phoenix, any Plug app | [analytics-phoenix-integration](https://github.com/top-stats/analytics-phoenix-integration) |
 
 Want one that isn't listed? Tell us in [Discord](https://discord.gg/jjEauJXuZc).
 
