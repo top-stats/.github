@@ -74,10 +74,11 @@ org as they ship.
 | Platform | Status | Repo |
 | --- | --- | --- |
 | Minecraft (Spigot / Paper) | Available — one jar, 1.8.8 through current | [analytics-minecraft-integration](https://github.com/top-stats/analytics-minecraft-integration) |
-| Rust (Oxide / Carbon) | Soon™ | |
-| FiveM | Available — drop-in server resource | [analytics-fivem-integration](https://github.com/top-stats/analytics-fivem-integration) |
-| Garry's Mod | Soon™ | |
-| ARK / Unturned | Soon™ | |
+| Rust (Oxide / Carbon) | Available — single-file uMod plugin | [analytics-rust-integration](https://github.com/top-stats/analytics-rust-integration) |
+| FiveM / RedM | Available — drop-in server resource, one build for both | [analytics-fivem-integration](https://github.com/top-stats/analytics-fivem-integration) |
+| Garry's Mod | Available — server-side addon | [analytics-gmod-integration](https://github.com/top-stats/analytics-gmod-integration) |
+| Unturned (OpenMod) | Available — OpenMod plugin | [analytics-unturned-integration](https://github.com/top-stats/analytics-unturned-integration) |
+| ARK | Soon™ | |
 | Discord bots (discord.js) | Available — `npm install @topstats/discord` | [analytics-discord-integration](https://github.com/top-stats/analytics-discord-integration) |
 
 Want one that isn't listed? Tell us in [Discord](https://discord.gg/jjEauJXuZc).
